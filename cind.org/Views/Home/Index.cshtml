@@ -6,11 +6,56 @@
 <div class="carousel carousel-slider center " data-indicators="true" style="height: 80vh;">
 
     <div class="carousel-item item-one">
-        <img src="~/img/dreamstime_xl_47035808.jpg" />
-       
+        <h1>
+            We<br /> take action
+            <span>
+                <button class="btn btn-flat">Learn more..</button>
+                <a href="#" class="btn btn-flat">Join us</a>
+            </span>
+        </h1>
+        <div class="row item-one-content animated slideInRight">
+            <div class="col s12 m6">
+                <div class="card black ">
+                    <div class="card-content white-text">
+                        <h1 class="card-title">At CIND</h1>
+                        <h5>
+                           We provide Actions toward decreasing the incidence..
+                        </h5>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Join Us</a>
+                        <a href="#" class="btn btn-floating">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="carousel-item item-two">
-        <img src="~/img/dreamstime_l_3433856.jpg" />
+        <h1>
+            We<br /> Collaborate
+            <span>
+                <button class="btn btn-flat">Learn more..</button>
+                <a href="#" class="btn btn-flat">Join us</a>
+            </span>
+        </h1>
+        <div class="row item-two-content animated slideInRight">
+            <div class="col s12 m6">
+                <div class="card black ">
+                    <div class="card-content white-text">
+                        <h1 class="card-title">At CIND</h1>
+                        <h5>
+                            We facilitate collaboration between stake holders involved in prevention, treatment,
+                            rehabilitation and policy advocacy of substance abuse disorders.
+                        </h5>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Join Us</a>
+                        <a href="#" class="btn btn-floating">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   
     <div>
@@ -60,5 +105,88 @@
         background : none;
 
     }
-   
+     .item-one{
+         background:url('../../img/dreamstime_xl_47035808.jpg');
+         background-repeat:no-repeat;     
+         background-size: 1820px 1190px;
+     }
+     .item-two{
+         background:url('../../img/dreamstime_l_3433856.jpg');
+         background-repeat:no-repeat;      
+         background-size: 1820px 1190px;
+     }
+
+       .item-one > h1{
+           color:white;
+           font-size:60pt;
+           text-align:left;
+           font-family:'Segoe UI';
+           font-weight:700;
+           padding-left:1em;
+           padding-top:1em;
+           margin-bottom:-40vh;
+       }
+       .item-one > h1 span{
+           display:block
+       }
+       .item-one > h1 span button, a{
+           font-size:10pt;
+           font-weight:lighter;
+       }
+       .item-one > h1 span  a{
+           background:none;
+           border:2px solid #ff0000;
+       }
+
+
+       .item-two > h1{
+           color:white;
+           font-size:60pt;
+           text-align:left;
+           font-family:'Segoe UI';
+           font-weight:700;
+           padding-left:1em;
+           padding-top:1em;
+           margin-bottom:-40vh;
+       }
+       .item-two > h1 span{
+           display:block
+       }
+       .item-two > h1 span button, a{
+           font-size:10pt;
+           font-weight:lighter;
+       }
+       .item-two > h1 span  a{
+           background:none;
+           border:2px solid #ff0000;
+       }
+
+
+      .item-one > .row{
+          margin-top:20vh !important;
+          margin-left:65% !important;
+      }
+     .item-one-content .card{
+         background : #212121;
+         opacity:0.5;
+     }
+     .item-one-content .btn-floating{
+  
+         float:right;
+         margin-top:1.5em;
+     }
+       .item-two > .row{
+          margin-top:10vh !important;
+          margin-left:45% !important;
+      }
+     .item-two-content .card{
+         background : #212121;
+         opacity:0.5;
+         width:30em;
+     }
+     .item-two-content .btn-floating{
+  
+         float:right;
+         margin-top:1.5em;
+     }
 </style>
