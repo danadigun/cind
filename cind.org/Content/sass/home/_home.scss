@@ -1,0 +1,149 @@
+﻿@import "../_Site_Variables.scss"; 
+
+.next {
+        margin-top: 45vh;
+        float: right;
+        margin-right: 2em;
+        opacity: 0.4;
+        background: none !important;
+    }
+
+    .previous {
+        margin-top: 45vh;
+        float: left;
+        margin-left: 2em;
+        opacity: 0.4;
+        background: none !important;
+    }
+
+    .item-one {
+        background: url('../../img/dreamstime_xl_47035808.jpg');
+        background-repeat: no-repeat;
+        background-size: 1820px 1190px;
+    }
+
+    .item-two {
+        background: url('../../img/dreamstime_l_3433856.jpg');
+        background-repeat: no-repeat;
+        background-size: 1820px 1190px;
+    }
+
+    .item-one > h1 {
+        color: white;
+        font-size: 60pt;
+        text-align: left;
+        font-family: 'Segoe UI';
+        font-weight: 700;
+        padding-left: 1em;
+        padding-top: 1em;
+        margin-bottom: -40vh;
+    }
+
+        .item-one > h1 span {
+            display: block;
+        }
+
+            .item-one > h1 span button, a {
+                font-size: 10pt;
+                font-weight: lighter;
+            }
+
+            .item-one > h1 span a {
+                background: none;
+                border: 2px solid $primary-color;
+            }
+
+
+    .item-two > h1 {
+        color: white;
+        font-size: 60pt;
+        text-align: left;
+        font-family: 'Segoe UI';
+        font-weight: 700;
+        padding-left: 1em;
+        padding-top: 1em;
+        margin-bottom: -40vh;
+    }
+
+        .item-two > h1 span {
+            display: block;
+        }
+
+            .item-two > h1 span button, a {
+                font-size: 10pt;
+                font-weight: lighter;
+            }
+
+            .item-two > h1 span a {
+                background: none;
+                border: 2px solid #Enroll new customer;
+            }
+
+
+    .item-one > .row {
+        margin-top: 20vh !important;
+        margin-left: 65% !important;
+    }
+
+    .item-one-content .card {
+        background: #212121;
+        opacity: 0.5;
+    }
+
+    .item-one-content .btn-floating {
+        float: right;
+        margin-top: 1.5em;
+    }
+
+    .item-two > .row {
+        margin-top: 10vh !important;
+        margin-left: 45% !important;
+    }
+
+    .item-two-content .card {
+        background: #212121;
+        opacity: 0.5;
+        width: 30em;
+    }
+
+    .item-two-content .btn-floating {
+        float: right;
+        margin-top: 1.5em;
+        
+    }
+
+    .about-cind {
+        height: 85vh;
+        border-top: 4px solid $primary-color;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background: whitesmoke;
+        font-family:'Segoe UI';
+        font-weight:lighter;
+    }
+    .about-cind .card-content .ion{
+        /*color:$primary-color;*/
+        color:white;
+    }
+    .about-cind .card-content{
+        background:$primary-color;
+        color:white;
+    }
+    .cind-comunity{
+        height:60vh;
+        padding-top:10vh;
+        
+    }
+    .cind-comunity h1,   .about-cind h1{
+        font-size:30pt;
+        color:$primary-color;
+        text-align:center;
+    }
+     .cind-comunity h4,   .about-cind h4{
+         text-align:center;
+         font-size:18pt;
+         /*color:gray;*/
+     }
+    .community .carousel-item .card{
+        border:1px solid $primary-color;
+    }

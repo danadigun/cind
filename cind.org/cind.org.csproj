@@ -1562,11 +1562,19 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\01%281%29.jpg" />
+    <Content Include="img\03%281%29.jpg" />
     <Content Include="img\dreamstimelarge_41957280.jpg" />
     <Content Include="img\dreamstime_l_3433856.jpg" />
     <Content Include="img\dreamstime_l_6427316.jpg" />
     <Content Include="img\dreamstime_l_6872164.jpg" />
+    <Content Include="img\dreamstime_xl_29022227.jpg" />
     <Content Include="img\dreamstime_xl_47035808.jpg" />
+    <Content Include="img\dreamstime_xl_50592602.jpg" />
+    <Content Include="img\dreamstime_xl_51710848.jpg" />
+    <Content Include="img\dreamstime_xl_56845378.jpg" />
+    <Content Include="img\ministry_of_health.jpg" />
+    <Content Include="img\unodc.png" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1646,6 +1654,7 @@
     <Content Include="Content\sass\nav\_nav_small_desktop.scss" />
     <Content Include="Content\sass\nav\_nav_large_desktop.scss" />
     <Content Include="Content\sass\slider\_Eslider.scss" />
+    <Content Include="Content\sass\home\_home.scss" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
@@ -1698,6 +1707,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\sass\footer\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
