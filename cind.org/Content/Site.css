@@ -123,6 +123,51 @@
 .community .carousel-item .card {
   border: 1px solid #d32f2f; }
 
+footer {
+  background: #404040;
+  margin-top: 20vh;
+  min-height: 50vh;
+  padding: 5vh;
+  width: 100%;
+  color: white;
+  border-top: 3px solid #d32f2f; }
+
+.copyright {
+  text-align: center;
+  background: #d32f2f;
+  color: white;
+  padding: 2em;
+  margin: 0; }
+
+.copyright > span {
+  display: block; }
+
+.copyright > span a {
+  color: white;
+  font-size: 20pt;
+  padding-right: 1em; }
+
+footer .quicklinks span {
+  display: block;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  color: white; }
+
+footer .quicklinks span a {
+  color: white; }
+
+footer .quicklinks span a:hover {
+  color: #ffcdd2;
+  font-weight: bold; }
+
+footer .quicklinks span .ion {
+  padding-right: 1em; }
+
+footer hr {
+  width: 70%;
+  float: left;
+  display: block; }
+
 body {
   font-family: 'Quicksand', sans-serif;
   background: #FFFFFF; }

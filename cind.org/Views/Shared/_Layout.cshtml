@@ -69,10 +69,34 @@
             </div>
         </nav>
         @RenderBody()
-        @*<hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Cind.org</p>
-        </footer>*@
+
+        <footer class="hide-on-med-and-down">
+            <div class="row">
+                <div class="col s4 quicklinks">
+                    <h4>Quick Links</h4><br />
+                    <span><a href="#"><i class="ion ion-ios-circle-outline"></i>General Information</a></span>
+                    <span><a href="#"><i class="ion ion-ios-circle-outline"></i>Conferences & Programs</a></span>
+                    <span><a href="#"><i class="ion ion-ios-circle-outline"></i>About the CIND Community</a></span>
+                    @*<l1></l1>*@
+
+                </div>
+                <div class="col s4">
+                    <h4>Contacts</h4><br />
+                    <p><b>Email: </b>contact@cind.org</p>
+                </div>
+                <div class="col s4"></div>
+            </div>
+        </footer>
+        <p class="copyright">
+            <span>
+                <a href="#"><i class="ion ion-social-twitter-outline"></i></a>
+                <a href="#"><i class="ion ion-social-facebook-outline"></i></a>
+                <a href="#"><i class="ion ion-social-googleplus-outline"></i></a>
+            </span>
+            &copy; @DateTime.Now.Year - Copyright Cind.org. all rights reserved<br /><br />
+            <span style="font-size:8pt">Powered by <a style="font-size:8pt" href="http://digitalforte.ng">Digital Forte Enterprise Systems Ltd.</a></span>
+        </p>
+
     </div>
 
 
