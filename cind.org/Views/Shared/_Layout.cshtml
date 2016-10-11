@@ -22,12 +22,46 @@
     <div>
         <nav class="top-nav">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Logo</a>
+                <a href="~/Home" class="brand-logo">Logo</a>
                 <span class="top-nav-title animated fadeInDown hide-on-med-and-down">Community Intervention Network on Drugs (CIND)</span>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#"><i class="ion ion-social-twitter-outline"></i></a></li>
                     <li><a href="#"><i class="ion ion-social-facebook-outline"></i></a></li>
                     <li><a href="#"><i class="ion ion-social-googleplus-outline"></i></a></li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="ion ion-android-menu"></i></a>
+                <ul id="slide-out" class="side-nav">
+                    <li>
+                        <div class="userView">
+                            &nbsp;
+                            @*<img class="background" src="images/office.jpg">
+                                <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+                                <a href="#!name"><span class="white-text name">John Doe</span></a>
+                                <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>*@
+                        </div>
+                    </li>
+                    <li>
+                        <a href="~/Home">
+                            <i class="ion ion-ios-photos-outline"></i>&nbsp;General Information
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="~/Home/About">
+                            <i class="ion ion-ios-list-outline"></i>&nbsp;About CIND
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="~/Home/ThematicAreas">
+                            <i class="ion ion-ios-unlocked-outline"></i>&nbsp;Thematic Areas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/Home/programs">
+                            <i class="ion ion-ios-clock-outline"></i>&nbsp;Programs
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -35,32 +69,32 @@
             <div class="nav-wrapper">
                 <ul id="nav-mobile" class="center hide-on-med-and-down">
                     <li>
-                        <a href="#">
+                        <a href="~/Home">
                             <i class="ion ion-ios-photos-outline"></i>&nbsp;General Information
                         </a>
                     </li>
+                    @*<li>
+                            <a href="#">
+                                <i class="ion ion-ios-briefcase-outline"></i>&nbsp;Organizational Structure
+                            </a>
+                        </li>*@
                     <li>
-                        <a href="#">
-                            <i class="ion ion-ios-briefcase-outline"></i>&nbsp;Organizational Structure
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                        <a href="~/Home/About">
                             <i class="ion ion-ios-list-outline"></i>&nbsp;About CIND
                         </a>
                     </li>
+                    @*<li>
+                            <a href="#">
+                                <i class="ion ion-ios-people-outline"></i>&nbsp;Key Personnel
+                            </a>
+                        </li>*@
                     <li>
-                        <a href="#">
-                            <i class="ion ion-ios-people-outline"></i>&nbsp;Key Personnel
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                        <a href="~/Home/ThematicAreas">
                             <i class="ion ion-ios-unlocked-outline"></i>&nbsp;Thematic Areas
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="~/Home/programs">
                             <i class="ion ion-ios-clock-outline"></i>&nbsp;Programs
                         </a>
                     </li>
@@ -83,6 +117,14 @@
                 <div class="col s4">
                     <h4>Contacts</h4><br />
                     <p><b>Email: </b>contact@cind.org</p>
+                    <p>
+                        <b>Dr. N.W.Ebiti</b><br />
+                        No. 1 Libya Road, Barnawa Phase 1 Barnawa.
+                        Kaduna, Nigeria.
+                    </p>
+                    <p>
+                        <a href="#modal1" class="btn btn-flat modal-trigger">Drop a message</a>
+                    </p>
                 </div>
                 <div class="col s4"></div>
             </div>
@@ -94,11 +136,57 @@
                 <a href="#"><i class="ion ion-social-googleplus-outline"></i></a>
             </span>
             &copy; @DateTime.Now.Year - Copyright Cind.org. all rights reserved<br /><br />
-            <span style="font-size:8pt">Powered by <a style="font-size:8pt" href="http://digitalforte.ng">Digital Forte Enterprise Systems Ltd.</a></span>
+            <span style="font-size:8pt">Powered by <a style="font-size:8pt" href="http://digitalforte.ng">Digital Forte Enterprise Systems Ltd.</a></span><br />
+            <a href="#modal1" class="btn btn-flat modal-trigger hide-on-large-only">Drop a message</a>
         </p>
 
-    </div>
+        <!-- Modal For messaging -->
+        <div id="modal1" class="modal bottom-sheet">
+            <div class="modal-content">
+                <h4>Drop a Message</h4>
+                <p>Please kindly drop a message and we'll get back to you as soon as we possible. </p>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="firstname" type="text" class="validate">
+                                <label for="firstname" data-error="wrong" data-success="right">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="Lastname" type="text" class="validate">
+                                <label for="Lastname" data-error="wrong" data-success="right">Last Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+               
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">cancel</a>
+                <button class=" modal-action  waves-effect waves-green btn-flat">Send message</button>
+            </div>
+        </div>
 
+    </div>
+    <script>
+        $(function () {
+            // Initialize collapse button
+            $(".button-collapse").sideNav();
+
+            $('.modal-trigger').leanModal();
+
+        })
+    </script>
 
 
     @RenderSection("scripts", required: false)

@@ -1564,10 +1564,15 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\01%281%29.jpg" />
     <Content Include="img\03%281%29.jpg" />
+    <Content Include="img\Dr Ebiti.jpg" />
     <Content Include="img\dreamstimelarge_41957280.jpg" />
     <Content Include="img\dreamstime_l_3433856.jpg" />
     <Content Include="img\dreamstime_l_6427316.jpg" />
     <Content Include="img\dreamstime_l_6872164.jpg" />
+    <Content Include="img\community.jpg" />
+    <Content Include="img\disseminate.jpg" />
+    <Content Include="img\Engage-wider.jpg" />
+    <Content Include="img\national_database.jpg" />
     <Content Include="img\dreamstime_xl_29022227.jpg" />
     <Content Include="img\dreamstime_xl_47035808.jpg" />
     <Content Include="img\dreamstime_xl_50592602.jpg" />
@@ -1575,6 +1580,7 @@
     <Content Include="img\dreamstime_xl_56845378.jpg" />
     <Content Include="img\ministry_of_health.jpg" />
     <Content Include="img\unodc.png" />
+    <Content Include="img\user-48.png" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1656,6 +1662,13 @@
     <Content Include="Content\sass\slider\_Eslider.scss" />
     <Content Include="Content\sass\home\_home.scss" />
     <Content Include="Content\sass\footer\_footer.scss" />
+    <Content Include="Content\sass\footer\_footer_mobile.scss" />
+    <Content Include="Content\sass\home\_about.scss" />
+    <Content Include="Content\sass\thematic_areas\_thematic_areas.scss" />
+    <Content Include="Content\sass\thematic_areas\_thematic_areas_desktop.scss" />
+    <Content Include="Content\sass\home\_about_mobile.scss" />
+    <Content Include="Content\sass\home\_home_mobile.scss" />
+    <None Include="Properties\PublishProfiles\cind.org.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
@@ -1705,6 +1718,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\ThematicAreas.cshtml" />
+    <Content Include="Views\Home\programs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,71 @@
+﻿@import "../_Site_Variables.scss";
+
+.about-cind {
+        min-height: 85vh;
+        border-top: 4px solid $primary-color;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background:$body-background;
+        font-family:'Segoe UI';
+        font-weight:lighter;
+    }
+    .about-cind .card-content .ion{
+        /*color:$primary-color;*/
+        color:white;
+    }
+    .about-cind .card-content{
+        background:$primary-color;
+        color:white;
+    }
+.about-cind h2{
+    color:$primary-color;
+}
+
+.about-cind .section-1{
+    width:100%;
+    /*background:whitesmoke;*/
+
+    color:black;
+    padding:1em;
+    margin-top:-6em;
+    height:100vh;
+    padding-top:20vh;
+}
+.about-cind .section-1 h2, .about-cind .section-1 h4{
+    text-align:center;
+    color:rgb(65,65,65) !important;
+}
+
+.about-cind .section-2{
+    width:100%;
+    padding-top:5em;
+    padding-bottom:5em;
+ }
+.about-cind .section-2 .s3{
+    /*text-align:justify;*/
+    padding:2em;
+    font-size:12pt;
+    text-align:center;
+}
+
+.about-cind .section-2 .s3 p{
+   font-size:10pt;
+   text-align:left;
+}
+
+ .about-cind .section-3{
+    width:100%;
+    padding:2em;
+ }
+.about-cind .section-2 h3, .about-cind .section-3 h3{
+    color:$primary-color;
+    text-align:center;
+}
+/*.about-cind .section-2 p, .about-cind .section-3 p{
+   
+   padding-bottom:1em;
+   font-size:16pt;
+   text-align:center;
+    font-family: 'Quicksand', sans-serif;
+}*/
+

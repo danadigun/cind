@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Thematic Areas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div style="padding:10em;" class="thematic-areas">
+    <h2 style="padding-bottom:1em; color:#d32f2f; text-align:center">
+        Thematic Areas
+    </h2>
+
+    <ul class="collapsible" data-collapsible="accordion" style="width:60%; margin-left:auto; margin-right:auto;">
+        <li>
+            <div class="collapsible-header"><i style="color:#d32f2f;" class="ion ion-plus"></i>Sensitization and Advocacy</div>
+            <div class="collapsible-body">
+                <p>
+                    Valid and reliable information to educate the public on drug abuse problems and establish evidence based drug policy in Nigeria
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i style="color:#d32f2f;" class="ion ion-plus"></i>Prevention</div>
+            <div class="collapsible-body">
+                <p>
+                    Mobilization of stakeholders and need for adequate budgetary allocation to FMOH for drug abuse prevention
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i style="color:#d32f2f;" class="ion ion-plus"></i>Special Populations/Vulnerable Groups</div>
+            <div class="collapsible-body"><p>  Evidence based effective, accessible, affordable, and acceptable drug treatment services</p></div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i style="color:#d32f2f;" class="ion ion-plus"></i>  Supply Reduction & Law Enforcement:</div>
+            <div class="collapsible-body">
+                <p>
+                    Mobilization of Nigerian political leadership to prevent and combat illicit drug trafficking and related crime
+                </p>
+            </div>
+        </li>
+    </ul>
+ 
+
+
+</div>
+<script>
+    $(document).ready(function () {
+        $('.collapsible').collapsible({
+            accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+        });
+    });
+</script>

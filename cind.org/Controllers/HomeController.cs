@@ -26,5 +26,14 @@ namespace cind.org.Controllers
 
             return View();
         }
+        public ActionResult ThematicAreas()
+        {
+            return View();
+        }
+
+        public ActionResult programs()
+        {
+            return View();
+        }
     }
 }

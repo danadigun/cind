@@ -112,23 +112,7 @@
         
     }
 
-    .about-cind {
-        height: 85vh;
-        border-top: 4px solid $primary-color;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        background: whitesmoke;
-        font-family:'Segoe UI';
-        font-weight:lighter;
-    }
-    .about-cind .card-content .ion{
-        /*color:$primary-color;*/
-        color:white;
-    }
-    .about-cind .card-content{
-        background:$primary-color;
-        color:white;
-    }
+    
     .cind-comunity{
         height:60vh;
         padding-top:10vh;
@@ -147,3 +131,5 @@
     .community .carousel-item .card{
         border:1px solid $primary-color;
     }
+
+  
