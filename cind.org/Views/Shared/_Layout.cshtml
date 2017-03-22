@@ -22,7 +22,7 @@
     <div>
         <nav class="top-nav">
             <div class="nav-wrapper">
-                <a href="~/Home" class="brand-logo">Logo</a>
+                <a href="~/Home" class="brand-logo"><img src="~/img/cind-logo-1.png" width="120" /></a>
                 <span class="top-nav-title animated fadeInDown hide-on-med-and-down">Community Intervention Network on Drugs (CIND)</span>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#"><i class="ion ion-social-twitter-outline"></i></a></li>
@@ -126,7 +126,10 @@
                         <a href="#modal1" class="btn btn-flat modal-trigger">Drop a message</a>
                     </p>
                 </div>
-                <div class="col s4"></div>
+                <div class="col s4">
+                    <br />
+                    <img src="~/img/cind-logo-2.png" width="250"/>
+                </div>
             </div>
         </footer>
         <p class="copyright">
@@ -141,29 +144,38 @@
         </p>
 
         <!-- Modal For messaging -->
-        <div id="modal1" class="modal bottom-sheet">
+        <div id="modal1" class="modal bottom-sheet" style="height:60vh !important;">
             <div class="modal-content">
-                <h4>Drop a Message</h4>
+                <h4>
+                    Drop a Message
+                    <span style="float:right">
+                        <button style="font-size:10pt" class=" modal-action  waves-effect waves-green btn btn-flat">send</button>
+
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">
+                            <i class="ion ion-close"></i>
+                        </a>
+                    </span>
+                </h4>
                 <p>Please kindly drop a message and we'll get back to you as soon as we possible. </p>
                 <div class="row">
-                    <form class="col s12">
+                    <form name="send-message" class="col s12" >
                         <div class="row">
                             <div class="input-field col s6">
-                                <input id="firstname" type="text" class="validate">
+                                <input id="firstname" type="text" class="validate" required>
                                 <label for="firstname" data-error="wrong" data-success="right">First Name</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="Lastname" type="text" class="validate">
+                                <input id="Lastname" type="text" class="validate" required>
                                 <label for="Lastname" data-error="wrong" data-success="right">Last Name</label>
                             </div>
                             <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
+                                <input id="email" type="email" class="validate" required>
                                 <label for="email" data-error="wrong" data-success="right">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <textarea id="message" class="materialize-textarea" required></textarea>
                                 <label for="message">Your Message</label>
                             </div>
                         </div>
@@ -171,10 +183,10 @@
                 </div>
                
             </div>
-            <div class="modal-footer">
+            @*<div class="modal-footer">
                 <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">cancel</a>
                 <button class=" modal-action  waves-effect waves-green btn-flat">Send message</button>
-            </div>
+            </div>*@
         </div>
 
     </div>
