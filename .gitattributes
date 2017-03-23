@@ -10,8 +10,8 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-*.css     diff=csharp
-*.css linguist-language=csharp
+*.html     diff=csharp
+*.html linguist-language=csharp
 
 *.cs     diff=csharp
 *.cs linguist-language=csharp
